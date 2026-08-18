@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevOps — Desafio Técnico</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container navbar-inner">
+      <span class="brand">Sensedia<span class="brand-accent">DevOps</span></span>
+      <nav class="nav-links">
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Desafio Técnico DevOps</h1>
+        <p>Aplicação frontend estática servida por NGINX. Verifique a saúde do serviço abaixo.</p>
+        <button id="btn-health" class="btn" type="button">Verificar saúde</button>
+        <div id="health-result" class="health-result" aria-live="polite"></div>
+        <p class="version">Versão: <span id="app-version">__APP_VERSION__</span></p>
+      </div>
+    </section>
+
+    <section id="sobre" class="section">
+      <div class="container">
+        <h2>Sobre</h2>
+        <p>Este é um frontend simples, composto apenas por HTML, CSS e JavaScript, pronto para ser empacotado e servido por um servidor web como o NGINX.</p>
+      </div>
+    </section>
+
+    <section id="servicos" class="section alt">
+      <div class="container">
+        <h2>Serviços</h2>
+        <div class="cards">
+          <div class="card">
+            <h3>CI/CD</h3>
+            <p>Pipelines automatizadas para build, teste e deploy.</p>
+          </div>
+          <div class="card">
+            <h3>Infraestrutura</h3>
+            <p>Provisionamento com IaC e gerenciamento de ambientes.</p>
+          </div>
+          <div class="card">
+            <h3>Monitoramento</h3>
+            <p>Observabilidade, métricas e alertas proativos.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="section">
+      <div class="container">
+        <h2>Contato</h2>
+        <p>Entre em contato pelo e-mail: <a href="mailto:devops@sensedia.com">devops@sensedia.com</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 ACME. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
