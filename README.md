@@ -10,6 +10,12 @@
 3. **Ao terminar, notificar o time da Sensedia** informando a conclusão do
    desafio e **enviar o link do repositório** (fork) para avaliação.
 
+> **Observação importante:** O candidato deve entregar **apenas os fontes** no
+> repositório (código da aplicação, imagem Docker, workflow do GitHub Actions e
+> infraestrutura Terraform/Terragrunt). **Não** é necessário deixar a
+> infraestrutura em execução — a equipe da Sensedia utilizará uma **conta de
+> testes** para validar a infraestrutura a partir dos fontes entregues.
+
 ---
 
 ### **1. Objetivo**
